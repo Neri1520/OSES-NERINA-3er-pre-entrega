@@ -1,3 +1,4 @@
+
 .containerdiv {
     padding: 60;
     margin: 50;
@@ -6,8 +7,20 @@
     border: 1px solid black;
     animation: mymove 5s infinite;
     transition-delay: 2s
+    
   }
 
+  $grid-gutter-width:
+    1.5rem;
+
  @keyframes mymove {
-   50% {border: 15px solid rgb(221, 91, 134);}
- }
+    50% {border: 15px solid rgb(221, 91, 134);}
+  }
+
+  $container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  
+  
+);
