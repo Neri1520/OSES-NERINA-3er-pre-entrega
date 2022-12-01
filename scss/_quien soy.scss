@@ -1,0 +1,13 @@
+.containerdiv {
+    padding: 60;
+    margin: 50;
+    width: 900px;
+    height: 300px;
+    border: 1px solid black;
+    animation: mymove 5s infinite;
+    transition-delay: 2s
+  }
+
+ @keyframes mymove {
+   50% {border: 15px solid rgb(221, 91, 134);}
+ }
