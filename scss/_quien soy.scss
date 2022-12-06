@@ -1,20 +1,26 @@
-
-.containerdiv {
+body {
+  padding: o;
+  margin: 0;
+}
+.section.titulo {
     padding: 60;
     margin: 50;
-    width: 900px;
-    height: 300px;
-    border: 1px solid black;
-    animation: mymove 5s infinite;
+    border: 1px solid rgb(228, 145, 145);
+    font-size: 5rem;
+    display: inline-block;
+    animation: move 5s infinite;
     transition-delay: 2s
-    
   }
-
-  $grid-gutter-width:
+    $grid-gutter-width:
     1.5rem;
 
- @keyframes mymove {
-    50% {border: 15px solid rgb(221, 91, 134);}
+ @keyframes move {
+    10% { 
+      border: 15px solid rgb(26, 24, 25);
+    }
+    50% {
+      text-shadow: 0 25px 50px rgb(228, 145, 145);
+    }
   }
 
   $container-max-widths: (
