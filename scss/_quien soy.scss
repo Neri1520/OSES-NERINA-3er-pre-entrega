@@ -1,7 +1,4 @@
-body {
-  padding: o;
-  margin: 0;
-}
+
 .section.titulo {
     padding: 60;
     margin: 50;
@@ -11,8 +8,6 @@ body {
     animation: move 5s infinite;
     transition-delay: 2s
   }
-    $grid-gutter-width:
-    1.5rem;
 
  @keyframes move {
     10% { 
@@ -23,10 +18,11 @@ body {
     }
   }
 
-  $container-max-widths: (
-  sm: 540px,
-  md: 720px,
-  lg: 960px,
-  
-  
-);
+
+
+
+
+
+
+
+
